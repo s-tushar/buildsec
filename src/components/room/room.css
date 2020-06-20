@@ -4,4 +4,6 @@
     height: fit-content;
     border: 3px solid grey;
     flex: initial;
+    background-color: lightcoral;
+    flex-direction: row;
 }

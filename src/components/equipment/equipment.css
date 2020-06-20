@@ -1,7 +1,8 @@
 .equipmentCard{
     width: 275px;
-    height: 200px;
+    height: 250px;
     border: 3px solid grey;
     padding: 5px;
     margin: 10px;
+    background-color: lemonchiffon;
 }
