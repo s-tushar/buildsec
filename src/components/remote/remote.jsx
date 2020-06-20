@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from '@material-ui/core/Modal';
+import {Button} from '@material-ui/core';
 import './remote.css';
 
 export default function SimpleModal() {
@@ -27,9 +28,9 @@ export default function SimpleModal() {
 
   return (
     <div>
-      <button type="button" onClick={handleOpen}>
-        Open Modal
-      </button>
+      <Button variant="contained" color="primary" onClick={handleOpen}>
+        Remote
+      </Button>
       <Modal
         open={open}
         onClose={handleClose}

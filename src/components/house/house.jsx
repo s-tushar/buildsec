@@ -10,21 +10,23 @@ export default class House extends React.Component {
 
     render() {
       return (
-      <div className='houseCard'>
-          
-      <h1>{this.props.name}</h1>
-      <Room 
-      name={"room1"}/>
+        <div className='house'>
+          <h1>{this.props.name}</h1>
+          <div className='houseCard'>
+              
+            <Room 
+            name={"room1"}/>
 
-      <Room 
-      name={"room2"}/>
+            <Room 
+            name={"room2"}/>
 
-      <Room 
-      name={"room3"}/>
+            <Room 
+            name={"room3"}/>
 
-      <Room 
-      name={"room4"}/>
+            <Room 
+            name={"room4"}/>
 
+          </div>
       </div>
       );
     }

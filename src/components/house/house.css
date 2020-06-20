@@ -1,10 +1,16 @@
 .houseCard{
     padding: 10px;
     margin: 10px;
-    width: fit-content;
+    width: 100%;
     height: fit-content;
     border: 3px solid grey;
     flex: initial;
-    background-color: lightseagreen;
+   
     
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.house{
+    /* background-color: lightseagreen; */
 }

@@ -8,6 +8,7 @@ import Input from '@material-ui/core/Input';
 const useStyles = makeStyles({
   root: {
     width: 250,
+    padding: 10,
   },
   input: {
     width: 42,
