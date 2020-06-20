@@ -2,6 +2,7 @@ import React from 'react';
 import AppSwitch from '../../core/switch/switch';
 import AppSlider from '../../core/slider/slider';
 import Button from '@material-ui/core/Button';
+import RemoteModal from '../remote/remote';
 
 import './equipment.css';
 
@@ -23,9 +24,7 @@ export default class Equipment extends React.Component {
               <AppSwitch/>
               <AppSlider/>
 
-              <Button variant="contained" color="primary" disableElevation>
-                Remote
-              </Button>
+              <RemoteModal/>
               
               
           </div> 
