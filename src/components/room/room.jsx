@@ -22,10 +22,7 @@ export default class Room extends React.Component {
       equipmentName={"equipment3"}/>
       <Equipment 
       equipmentName={"equipment4"}/>
-      <Equipment 
-      equipmentName={"equipment4"}/>
-      <Equipment 
-      equipmentName={"equipment5"}/>
+     
       </div>
       );
     }

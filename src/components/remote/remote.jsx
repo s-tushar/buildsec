@@ -18,11 +18,11 @@ export default function SimpleModal() {
 
   const body = (
     <div className='Middle'>
-      <h2 id="simple-modal-title">Text in a modal</h2>
-      <p id="simple-modal-description">
-        Duis mollis, est non commodo luctus, nisi erat porttitor ligula.
-      </p>
-      {/* <SimpleModal /> */}
+      <h2 id="simple-modal-title" className='Center'>Remote for Equipment</h2>
+      <h3>Temprature Bar</h3>
+      <h3>Fan Speed</h3>
+      
+      
     </div>
   );
 
