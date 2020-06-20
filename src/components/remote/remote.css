@@ -1,0 +1,13 @@
+.Middle {
+    position: absolute;
+    width: 400px;
+    background-color:#fff;
+    border: 2px solid #000;
+    padding: 10px;
+    box-shadow: 500;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}

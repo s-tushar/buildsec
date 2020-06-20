@@ -1,8 +1,8 @@
 import React from 'react';
 import AppSwitch from '../../core/switch/switch';
 import AppSlider from '../../core/slider/slider';
-import Button from '@material-ui/core/Button';
-import RemoteModal from '../remote/remote';
+//import Button from '@material-ui/core/Button';
+import Remote from '../remote/remote';
 
 import './equipment.css';
 
@@ -13,9 +13,6 @@ export default class Equipment extends React.Component {
         this.listRef = React.createRef();
       }
 
-    
-
-
     render() {
      
       return(
@@ -24,8 +21,11 @@ export default class Equipment extends React.Component {
               <AppSwitch/>
               <AppSlider/>
 
-              <RemoteModal/>
-              
+              {/* <Button variant="contained" color="primary" disableElevation>
+                Remote
+              </Button> */}
+
+              <Remote/>
               
           </div> 
       );
