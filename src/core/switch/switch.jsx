@@ -2,6 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Switch from '@material-ui/core/Switch';
+import './switch.css';
 
 
 const IOSSwitch = withStyles((theme) => ({
@@ -39,19 +40,19 @@ const IOSSwitch = withStyles((theme) => ({
       transition: theme.transitions.create(['background-color', 'border']),
     },
     checked: {},
-    focusVisible: {},
+    
   }))(({ classes, ...props }) => {
     return (
       <Switch
-        focusVisibleClassName={classes.focusVisible}
+        focusVisibleClassName='focusVisible'
         disableRipple
-        classes={{
-          root: classes.root,
-          switchBase: classes.switchBase,
-          thumb: classes.thumb,
-          track: classes.track,
-          checked: classes.checked,
-        }}
+        // classes={{
+        //   root: classes.root,
+        //   switchBase: classes.switchBase,
+        //   thumb: classes.thumb,
+        //   track: classes.track,
+        //   checked: classes.checked,
+        // }}
         {...props}
       />
     );
@@ -66,6 +67,7 @@ export default function AppSwitch() {
 
   const handleChange = (event) => {
     setState({ ...state, [event.target.name]: event.target.checked });
+    console.log('toggled', {state});
   };
 
   return (
